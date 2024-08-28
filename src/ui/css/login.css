@@ -1,0 +1,37 @@
+.container {
+	height: 350px;
+	width: 350px;
+	float: right;
+}
+
+.container .register .a-left{
+	float: left;
+}
+
+.container .register .a-right {
+	float: right;
+}
+
+.container a {
+	color: black;
+}
+
+.box {
+	width: 1200px;
+	margin: 400px auto;
+}
+
+.tv {
+/*	width: 500px;*/
+/*	height: 500px;*/
+	margin-top: -50px;
+}
+
+
+.box .tv .box-img {
+	width: 400px;
+	height: 400px;
+	margin: 0;
+}
+
+

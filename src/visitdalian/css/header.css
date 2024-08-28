@@ -1,0 +1,121 @@
+/* 给header设置外边距 */
+.header{
+	margin-top: 15px;
+	margin: 0%;
+	position: relative;
+}
+
+.language{
+	width: 100%;
+	height: 35px;
+	background-color: #111;
+}
+.nav{
+	width: 100%;
+	height: 70px;
+	background-color: #002b49;
+}
+
+/* 语言下面的标签 */
+.language>ul>li{
+	width: 80px;
+	height: 35px;
+	background-color: pink;
+	float: left;
+	list-style: none;
+	margin-left: 5px;
+}
+
+.language>ul>li:nth-of-type(1){
+	background: url(../img/lag.png);
+}
+.language>ul>li:nth-of-type(1):hover{
+	background: url(../img/lag.png) no-repeat -80px 0px;
+}
+.language>ul>li:nth-of-type(2){
+	background: url(../img/lag.png) no-repeat 0px -34px;
+}
+.language>ul>li:nth-of-type(2):hover{
+	background: url(../img/lag.png) no-repeat -80px -34px;
+}
+.language>ul>li:nth-of-type(3){
+	background: url(../img/lag.png) no-repeat 0px -68px;
+}
+.language>ul>li:nth-of-type(3):hover{
+	background: url(../img/lag.png) no-repeat -80px -68px;
+}
+.language>ul>li:nth-of-type(4){
+	background: url(../img/lag.png) no-repeat 0px -102px;
+}
+.language>ul>li:nth-of-type(4):hover{
+	background: url(../img/lag.png) no-repeat -80px -102px;
+}
+.language>ul>li:nth-of-type(5){
+	display: block;
+	padding-left: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	background: url(../img/b1.png) no-repeat 3px 0px;
+	background-color: #008ace;
+}
+.language>ul{
+	float: right;
+	margin-right: 80px;
+}
+.nav>ul>li>a:hover{
+	color: #008ace;
+}
+
+/* 清楚a标签的默认样式 */
+a{
+	text-decoration: none;
+	color: #101111ce;
+}
+
+/* 导航条部分 */
+.nav>ul{
+	margin-left:310px;
+}
+.nav>ul>li{
+	height: 70px;
+	padding: 0 40px;
+	float: left;
+	list-style: none;
+}
+.nav>ul>li>a{
+	color: white;
+	line-height: 70px;
+}
+#rigister>a{
+	color: white;
+	font-size: 20px;
+	font-weight: 1000;
+}
+#login>a{
+	color: white;
+	font-size: 20px;
+	font-weight: 1000;
+}
+#login>a:hover{
+	color: chartreuse;
+}
+#rigister>a:hover{
+	color: chartreuse;
+}
+
+
+/* logo */
+.logo{
+	float: left;
+	margin-left: 200px;
+	height: 105px;
+}
+.logo a{
+	display: block;
+}
+.banner{
+	width: 100%;
+	height: 410px;
+	background-color: #008ace;
+	background: url(../img/dalina.png) no-repeat;
+}

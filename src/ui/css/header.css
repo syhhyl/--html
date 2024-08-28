@@ -1,0 +1,45 @@
+.header {
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+    width: 2000px;
+}
+
+.header .h-left {
+    float: left;
+}
+
+.header .h-left h2 {
+    margin-left: 50px;
+}
+
+.header .h-right {
+    float: right;
+}
+
+.header .h-right .tx {
+    float: left;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-top: 10px;
+
+/*    background-color: red;*/
+    width: 36px;
+    height: 36px;
+    
+/*  margin-right: 100px;*/
+}
+
+.header .daohang ul li {
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.header .tx img {
+    width: 32px;
+    margin-left: 2px;
+    height: auto;
+}

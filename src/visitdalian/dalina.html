@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>霞客行旅游网</title>
+		<meta name="description" content="大连旅游"/>
+		<meta name="keywords" content="酒店,景点,游记，节日活动，酒店，社区，自由行，旅游咨询"/>
+		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="stylesheet" href="css/continer/top1.css"/>
+		<link rel="stylesheet" href="css/continer/top2.css"/>
+		<link rel="stylesheet" href="css/continer/top3.css"/>
+		<link rel="stylesheet" href="css/header.css"/>
+		<link rel="stylesheet" href="css/footer.css"/>
+		<link rel="stylesheet" href="css/continer/continer.css"/>
+	</head>
+	<body>
+		<div id="main">
+		<!-- 头部 -->
+		<div class="header">
+			<div class="logo">
+				<h1>
+					<a href="dalina.html">
+						<img src="img/logo.jpg"/">
+					</a>
+				</h1>
+			</div>
+			<div class="language">
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li>22℃～27℃</li>
+				</ul>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">概述</a></li>
+					<li><a href="#">旅游</a></li>
+					<li><a href="#">景区</a></li>
+					<li><a href="#">线路</a></li>
+					<li><a href="#">美食</a></li>
+					<li><a href="#">酒店</a></li>
+					<li><a href="#">购物</a></li>
+					<li><a href="#">交通</a></li>
+					<li id="rigister"><a href="../ui/register.html">注册</a></li>
+					<li id="login"><a href="../ui/login.html">登录</a></li>
+				</ul>
+			</div>
+			<div class="banner"></div>
+		</div>
+		<!-- 中间 -->
+		<div class="continer">
+			<!-- 版心最上面的部分 -->
+			<div class="top1">
+				<!-- 左边 -->
+				<div class="left">
+					<h2>大连旅游</h2>
+					<ul>
+						<li><a href="#">节日活动</a></li>
+						<li><a href="#">会议展览</a></li>
+						<li><a href="#">旅游攻略</a></li>
+						<li><a href="#">自由行</a></li>
+						<li><a href="#">酒店</a></li>
+						<li><a href="#">社区</a></li>
+					</ul>
+				</div>
+				<!-- 中间 -->
+				<div class="center">
+					<ul id="imglist">
+						<li><img src="img/img1.jpg"/></li>
+						<li><img src="img/img2.jpg"/></li>
+						<li><img src="img/img3.jpg"/></li>
+						<li><img src="img/img4.jpg"/></li>
+						<li><img src="img/img5.jpg"/></li>
+						<li><img src="img/img1.jpg"/></li>
+					</ul>
+					<script>
+						var left = 0
+						var timer;
+						run();
+						function run()
+						{
+							if(left<=-4000)
+							{
+								left = 0;
+							}
+							imglist.style.marginLeft = left + 'px';
+							varn = (left%800==0) ? n = 800 : n = 10;
+							left-=10;
+							timer = setTimeout(run,n);
+						}
+					</script>
+				</div>
+				<!-- 右边 -->
+				<div class="right">
+					<div class="news">
+						<span class="news_left">最新消息</span>
+						<span class="news_right">
+							<a href="../news/news1/news.html">更多资讯></a>
+						</span>
+					</div>
+					<ul>
+						<li><a href="#">大连市政府对星海广场规划方案进行了修改，中环</a></li>
+						<li><a href="#">棒棰岛修建国宾馆大楼和别墅，高尔夫球场等建筑</a></li>
+						<li><a href="#">大连圣亚海洋世界开展动物表演</a></li>
+						<li><a href="#">中国最大日本风情街在大连开业</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="top2">
+				<div class="top21">
+					<div class="pic1">
+						<img src="img/goldstone.jpg"/>
+					</div>
+					<div class="text1">
+						<h2><a href="#">金石滩</a></h2>
+					</div>
+				</div>
+				<div class="top22">
+					<div class="pic2">
+						<img src="img/square.jpg"/>
+					</div>
+					<div class="text2">
+						<h2><a href="#">星海广场</a></h2>
+					</div>
+				</div>
+				<div class="top23">
+					<div class="pic3">
+						<img src="img/tigerjpg.jpg"/>
+					</div>
+					<div class="text3">
+						<h2><a href="#">老虎滩</a></h2>
+					</div>
+				</div>
+			</div>
+			<div class="word">
+				<h2>——————热门游记——————</h2>
+				<p><i>旅行让人谦虚。你会发现自己在世界上所处的位置是多么渺小。</i></p>
+			</div>
+			<div class="top3">
+				<div class="jh">
+					<span class="l1">精华</span>
+					<img src="img/下载 (1).svg"/>
+				</div>
+				<div class="pic1">
+					<img src="img/top31.jpg"/>
+					<div class="content1">
+						<span class="word1"><b><a href="#">看着千姿百态的奇石，感叹自然界的神奇，我玩着海水，用沙子建着城堡，不知不觉一天就过去了......</a></b></span>
+					</div>
+				</div>
+				<div class="pic2">
+					<img src="img/top32.jpg"/>
+					<div class="content2">
+						<span class="word2"><b><a href="#">老虎滩公园有快乐剧场。快乐剧场可以看到海狮和海象的精彩表演,鸟语林可以看到“孔雀东南飞”......</a></b></span>
+					</div>
+				</div>
+				<div class="pic3">
+					<img src="img/top33.jpg"/>
+					<div class="content3">
+						<span class="word3"><b><a href="#">走着单线马路，来到了有名的星海广场。地面没有一丝尘迹，大海边不时传来阵阵海鸥的叫声......</a></b></span>
+					</div>
+				</div>
+				<div class="pic4">
+					<img src="img/top34.jpg"/>
+					<div class="content4">
+						<span class="word4"><b><a href="#">竹排最好玩了，拿着三米长的竹竿轻轻一点河底，竹排就像离弦的箭一样向前飞速的前进......</a></b></span>
+					</div>
+				</div>
+				<div class="pic5">
+					<img src="img/top35.jpg"/>
+					<div class="content5">
+						<span class="word5"><b><a href="#">我们先来到了海兽馆，那里大多是身体庞大的海狮，我买来一盒小鱼准备喂它们，拿起夹子夹起一条，手刚伸出去......</a></b></span>
+					</div>
+				</div>
+				<div class="pic6">
+					<img src="img/top36.jpg"/>
+					<div class="content6">
+						<span class="word6"><b><a href="#">坐着大巴车到了大连最美的一条路——情人路。为什么叫情人路呢？因为爱情数字是99，这里就有99道弯......</a></b></span>
+					</div>
+				</div>
+				<div class="pic7">
+					<img src="img/top37.jpg"/>
+					<div class="content7">
+						<span class="word7"><b><a href="#">我们到达了仙人洞镇——冰峪沟。一下车，一座座山连绵起伏，郁郁葱葱的树木遍布在群山之中......</a></b></span>
+					</div>
+				</div>
+				<div class="pic8">
+					<img src="img/top38.jpg"/>
+					<div class="content8">
+						<span class="word8"><b><a href="#">火烧山是由红色，黑色，火渣块和浮石组成，火山口似烈火烧成的破锅，因此称为“火烧山”......</a></b></span>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- 尾部 -->
+		<div class="footer">
+			<div class="backfootertop1">
+				<div class="footerneer">
+					<ul class="about">
+						<li>
+							<dl>
+								<dt><a href="#">关乎我们</a></dt>
+								<dd>
+									<a href="#">网站简介</a>
+								</dd>
+								<dd>
+									<a href="#">联系我们</a>
+								</dd>
+								<dd>
+									<a href="#">合作伙伴</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">加入我们</a>
+								</dt>
+								<dd>
+									<a href="#">我的邮箱</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">网络条款</a>
+								</dt>
+								<dd>
+									<a href="#">免责声明</a>
+								</dd>
+								<dd>
+									<a href="#">版权声明</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">帮助中心</a>
+								</dt>
+								<dd>
+									<a href="#">新手上路</a>
+								</dd>
+								<dd>
+									<a href="#">使用帮助</a>
+								</dd>
+								<dd>
+									<a href="#">网站地图</a>
+								</dd>
+								<dd>
+									<a href="#">旅游公具</a>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<div class="other">
+					<h3>
+						<a href="#">www.xxxx.com</a>
+					</h3>
+					<ul>
+						<li>
+							<img src="img/sm_dot.png"/>
+							<a href="#">首页</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<img src="img/sm_dot.png"/>
+							<a href="#">概述</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<img src="img/sm_dot.png"/>
+							<a href="#">旅游</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<img src="img/sm_dot.png"/>
+							<a href="#">景区</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<img src="img/sm_dot.png"/>
+							<a href="#">路线</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<img src="img/sm_dot.png"/>
+							<a href="#">美食</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<img src="img/sm_dot.png"/>
+							<a href="#">酒店</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<img src="img/sm_dot.png"/>
+							<a href="#">购物</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<img src="img/sm_dot.png"/>
+							<a href="#">交通</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<img src="img/sm_dot.png"/>
+							<a href="#">演出</a>
+						</li>
+					</ul>
+					
+				</div>
+				<div class="contact">
+					<img src="img/微信图片_20240709224041.jpg"/>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>

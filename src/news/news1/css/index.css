@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+#main{
+	width:1600px;
+	height:500px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+}
+
+/*让button 按钮 变成小手*/
+button {
+    cursor: pointer;
+}
+/* 整个网页添加背景图片 */
+body{
+	background: url(../img/bg.jpg);
+}
+
+/* 给header设置外边距 */
+.header{
+	margin-top: 15px;
+	position: relative;
+}
+
+.language{
+	width: 100%;
+	height: 35px;
+	background-color: #111;
+}
+.nav{
+	width: 100%;
+	height: 70px;
+	background-color: #002b49;
+}
+
+/* 语言下面的标签 */
+.language>ul>li{
+	width: 80px;
+	height: 35px;
+	background-color: pink;
+	float: left;
+	list-style: none;
+	margin-left: 5px;
+}
+
+.language>ul>li:nth-of-type(1){
+	background: url(../img/lag.png);
+}
+.language>ul>li:nth-of-type(1):hover{
+	background: url(../img/lag.png) no-repeat -80px 0px;
+}
+.language>ul>li:nth-of-type(2){
+	background: url(../img/lag.png) no-repeat 0px -34px;
+}
+.language>ul>li:nth-of-type(2):hover{
+	background: url(../img/lag.png) no-repeat -80px -34px;
+}
+.language>ul>li:nth-of-type(3){
+	background: url(../img/lag.png) no-repeat 0px -68px;
+}
+.language>ul>li:nth-of-type(3):hover{
+	background: url(../img/lag.png) no-repeat -80px -68px;
+}
+.language>ul>li:nth-of-type(4){
+	background: url(../img/lag.png) no-repeat 0px -102px;
+}
+.language>ul>li:nth-of-type(4):hover{
+	background: url(../img/lag.png) no-repeat -80px -102px;
+}
+.language>ul>li:nth-of-type(5){
+	display: block;
+	padding-left: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	background: url(../img/b1.png) no-repeat 3px 0px;
+	background-color: #008ace;
+}
+.language>ul{
+	float: right;
+	margin-right: 80px;
+}
+.nav>ul>li>a:hover{
+	color: #008ace;
+}
+
+/* 清楚a标签的默认样式 */
+a{
+	text-decoration: none;
+	color: #101111ce;
+}
+
+/* 导航条部分 */
+.nav>ul{
+	margin-left:310px;
+}
+.nav>ul>li{
+	height: 70px;
+	padding: 0 40px;
+	float: left;
+	list-style: none;
+}
+.nav>ul>li>a{
+	color: white;
+	line-height: 70px;
+}
+
+/* logo */
+.logo{
+	float: left;
+	margin-left: 200px;
+	height: 105px;
+}
+.logo a{
+	display: block;
+}
+/* 横幅 */
+.banner1{
+	width: 100%;
+}
+.banner1 img{
+	width: 100%;
+	height: 550px;
+}
+/* 标题 */
+.head{
+	float: left;
+	width: 100%;
+	margin-left: 80px;
+	margin-top: 50px;
+	border-bottom: 1px solid black;
+	font-size: 25px;
+}
+/* 竖幅 */
+.banner2{
+	float: right;
+	width: 500px;
+}
+.banner2 img{
+	margin-top: 80px;
+	width: 500px;
+	height: 1000px;
+}
+/* 版心 */
+.w1{
+	margin-top: 30px;
+	float: left;
+	width: 1100px;
+   /* background-color: pink; */
+	
+}
+/* 新闻 */
+.news{
+	float: left;
+	width: 1000px;
+	height: 400px;
+	margin-left: 80px;
+	margin-top: 50px;
+	/* background-color: red; */ 
+	
+}
+/* 新闻图片 */
+.news img{
+	width: 496px;
+	height: 396px;
+	border: 2px solid black; 
+}
+/* 新闻资讯 */
+.texta{
+	float: right;
+	width: 500px;
+	height: 400px;
+	/* background-color: #ffffff; */
+	line-height: 31px;
+	font-size: 16px; 
+	color: purple;
+}
+.form{
+	float: right;
+	width: 500px;
+}
+.form dt{
+	margin: 100px 0 20px 0;
+	font-size: 30px;
+}
+.form dd{
+	margin-top: 40px;
+}
+.form dd p{
+	margin-top: 20px;
+}
+#rigister>a{
+	color: white;
+	font-size: 20px;
+	font-weight: 1000;
+}
+#login>a{
+	color: white;
+	font-size: 20px;
+	font-weight: 1000;
+}
+#login>a:hover{
+	color: chartreuse;
+}
+#rigister>a:hover{
+	color: chartreuse;
+}

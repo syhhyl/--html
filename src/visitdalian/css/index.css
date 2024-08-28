@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+#main{
+	width:1600px;
+	height:500px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+}
+
+/*让button 按钮 变成小手*/
+button {
+    cursor: pointer;
+}
+/* 整个网页添加背景图片 */
+body{
+	background: url(../img/bg.jpg);
+}
+
+
+

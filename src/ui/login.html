@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅游网登陆页面</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+<body>
+    <div class="header">
+
+        <div class="h-left">
+            <img src="img/logo.png" style="width: 100px; height: auto;">
+
+            <h2 style="float: right; font-size: 30px;">你的专属私人旅行规划大师  ---  霞客行</h2>
+        </div>
+        
+        <div class="h-right">
+            <div class="tx">
+                <img src="img/user.png">
+            </div>
+
+            <div class="daohang">
+                <ul>
+                    <li><a href="../visitdalian/dalina.html">首页</a></li>
+                    <li><a href="#">海外登陆帮助</a></li>
+                    <li><a href="#">反馈</a></li>
+                    <li><a href="#">客户端下载</a></li>
+                    <li><a href="#">App下载</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="box">  
+
+        <div class="tv">
+            <!-- <img src="img/logo1.png" class="logo"> -->
+            <div class="box-img">
+                <img src="img/l-logo1.png">
+            </div>
+            <div class="box-img">
+                <img src="img/l-logo2.png">
+            </div>
+            <div class="box-img">
+                <img src="img/l-logo3.png">
+            </div>
+            <div class="box-img">
+                <img src="img/l-logo4.png">
+            </div>
+        </div>
+        
+        <!-- <img class="img" src="img/man.png"> -->
+        <div class="container">
+            <h1>账号登陆</h1>
+            <!-- <img src="img/mam.png"> -->
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">用户名:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+              <!--   <div class="form-group">
+                    <label for="email">邮箱:</label>
+                    <input type="email" id="email" name="email" required>
+                </div> -->
+                <div class="form-group">
+                    <label for="password">密码:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <!-- <div class="form-group">
+                    <label for="confirmPassword">确认密码:</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div> -->
+                <!-- <button type="submit">注册</button> -->
+            </form>
+            <p id="message"></p>
+            <button class="login-button" onclick="alert('success');window.location.href='#'">登陆</button>
+            <div class="register">
+                <a class="a-left" href="./register.html">注册账号</a>
+                <a class="a-right" href="#">忘记密码</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="line"></div>
+        <div class="support-link">
+            <div class="acgf">
+                <div class="r1">
+                    <h3>关于</h3>
+                    <ul>
+                        <li>关于xkx.com</li>
+                        <li>传媒中心</li>
+                        <li>加入我们</li>
+                        <li>条款和细则</li>
+                        <li>隐私条款</li>
+                    </ul>
+                </div>
+                <div class="r1">
+                    <h3>其他服务</h3>
+                    <ul>
+                        <li>投资者关系</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="acgf">
+                <div class="r2">
+                    <h3>账户</h3>
+                    <ul>
+                        <li>注册</li>
+                        <li>登陆</li>
+                        <li>忘记密码</li>
+                    </ul>
+                </div>
+                <div class="r2">
+                    <h3>帮助中心</h3>
+                    <ul>
+                        <li>付款方式</li>
+                        <li>价格保证</li>
+                        <li>账户安全</li>
+                        <li>用户隐私协议</li>
+                        <li>全球服务协议</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="acgf">
+                <div class="r3">
+                    <h3>霞客商店</h3>
+                    <ul>
+                        <li>T-shirt</li>
+                        <li>冲锋衣</li>
+                        <li>战术裤</li>
+                        <li>背包</li>
+                        <li>保暖夹克</li>
+                        <li>运动水壶</li>
+                        <li>多功能手套</li>
+                        <li>雪地靴</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="acgf">
+                <div class="r4">
+                    <h3>商业</h3>
+                    <ul>
+                        <li>投资</li>
+                        <li>上市</li>
+                    </ul>
+                </div>
+                <div class="r4">
+                    <h3>教育</h3>
+                    <ul>
+                        <li>优惠</li>
+                        <li>赞助</li>
+                    </ul>
+                </div>
+                <div class="r4">
+                    <h3>物流配送</h3>
+                    <ul>
+                        <li>运费说明</li>
+                        <li>关税相关</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="acgf">
+                <div class="r5">
+                    <h3>合作伙伴</h3>
+                    <ul>
+                        <!-- <li>apple</li> -->
+                        <li>携程网</li>
+                        <li>当当网</li>
+                        <li>淘宝网</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="line1"></div>
+        <div class="footer-box">
+            
+            <div class="f-left">
+                <div>
+                    <p>联系我们</p>
+                </div>
+                <a href="#"><img src="img/weibo.png"></a>
+                <a href="#"><img src="img/bilibili.png"></a>
+                <a href="#"><img src="img/douyin.png"></a>
+                <a href="#"><img src="img/xhs.png"></a>
+            </div>
+
+            <div class="f-right">
+                <div class="info">
+                    <ul>
+                        <li>X-ke-X © 2024</li>
+                        <li>privacy & legal</li>
+                        <li>contact</li>
+                        <li>news</li>
+                        <li>locations</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <
+    </div>
+
+
+    <script type="text/javascript">
+        var index = 0;
+        var pic = document.getElementsByClassName('box-img');
+        pic[index].style.opacity = 1;
+        function update() {
+            // body...
+            pic[index].style.opacity = 0;
+            index++;
+            if (index >= pic.length) {
+                index = 0;
+            }
+            pic[index].style.opacity = 1;
+
+        }
+
+        setInterval(update, 2000);
+    </script>
+</body>
+</html>
